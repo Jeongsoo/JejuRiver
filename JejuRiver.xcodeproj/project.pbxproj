@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41C297F1AFE8CA30094DD09 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C297D1AFE8CA30094DD09 /* PlayViewController.m */; };
+		F41C29801AFE8CA30094DD09 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41C297E1AFE8CA30094DD09 /* PlayViewController.xib */; };
+		F451F47E1AF8D59B00DD263D /* RiverListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F451F47C1AF8D59B00DD263D /* RiverListViewController.m */; };
+		F451F47F1AF8D59B00DD263D /* RiverListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */; };
+		F451F4831AF8D85800DD263D /* KeyAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F451F4811AF8D85800DD263D /* KeyAddViewController.m */; };
+		F451F4841AF8D85800DD263D /* KeyAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F451F4821AF8D85800DD263D /* KeyAddViewController.xib */; };
+		F451F4871AF8F47000DD263D /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F451F4861AF8F47000DD263D /* XMLReader.m */; };
+		F451F48A1AF9035800DD263D /* JRServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F451F4891AF9035800DD263D /* JRServer.m */; };
+		F45E8DAC1B02EF2300B17EC1 /* JRNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45E8DAB1B02EF2300B17EC1 /* JRNaviViewController.m */; };
+		F467D1431AFE4A87004393E0 /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F467D1411AFE4A87004393E0 /* AuthViewController.m */; };
+		F467D1441AFE4A87004393E0 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F467D1421AFE4A87004393E0 /* AuthViewController.xib */; };
+		F47D2E1D1AFEDB3B00A23F44 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F47D2E1C1AFEDB3B00A23F44 /* ImageDownloader.m */; };
+		F481B23A1B001ED10011F738 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F481B2381B001ED10011F738 /* SetupViewController.m */; };
+		F481B23B1B001ED10011F738 /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F481B2391B001ED10011F738 /* SetupViewController.xib */; };
+		F4ECDEF11AF7ABFB0093A812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECDEF01AF7ABFB0093A812 /* main.m */; };
+		F4ECDEF41AF7ABFB0093A812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECDEF31AF7ABFB0093A812 /* AppDelegate.m */; };
+		F4ECDEFC1AF7ABFB0093A812 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ECDEFB1AF7ABFB0093A812 /* Images.xcassets */; };
+		F4ECDEFF1AF7ABFB0093A812 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ECDEFD1AF7ABFB0093A812 /* LaunchScreen.xib */; };
+		F4ECDF0B1AF7ABFB0093A812 /* JejuRiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECDF0A1AF7ABFB0093A812 /* JejuRiverTests.m */; };
+		F4ECFD041B08A20300118427 /* JRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECFD031B08A20300118427 /* JRObject.m */; };
+		F4ECFD081B08AE3800118427 /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECFD061B08AE3800118427 /* BrowseViewController.m */; };
+		F4ECFD091B08AE3800118427 /* BrowseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ECFD071B08AE3800118427 /* BrowseViewController.xib */; };
+		F4F5508A1AF7B2ED00AC67B8 /* JRController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F550891AF7B2ED00AC67B8 /* JRController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4ECDF051AF7ABFB0093A812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4ECDEE31AF7ABFB0093A812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4ECDEEA1AF7ABFB0093A812;
+			remoteInfo = JejuRiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F41C297C1AFE8CA30094DD09 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		F41C297D1AFE8CA30094DD09 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		F41C297E1AFE8CA30094DD09 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		F451F47B1AF8D59B00DD263D /* RiverListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiverListViewController.h; sourceTree = "<group>"; };
+		F451F47C1AF8D59B00DD263D /* RiverListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiverListViewController.m; sourceTree = "<group>"; };
+		F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RiverListViewController.xib; sourceTree = "<group>"; };
+		F451F4801AF8D85800DD263D /* KeyAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAddViewController.h; sourceTree = "<group>"; };
+		F451F4811AF8D85800DD263D /* KeyAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAddViewController.m; sourceTree = "<group>"; };
+		F451F4821AF8D85800DD263D /* KeyAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyAddViewController.xib; sourceTree = "<group>"; };
+		F451F4851AF8F47000DD263D /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		F451F4861AF8F47000DD263D /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		F451F4881AF9035800DD263D /* JRServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRServer.h; sourceTree = "<group>"; };
+		F451F4891AF9035800DD263D /* JRServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRServer.m; sourceTree = "<group>"; };
+		F45E8DAA1B02EF2300B17EC1 /* JRNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRNaviViewController.h; sourceTree = "<group>"; };
+		F45E8DAB1B02EF2300B17EC1 /* JRNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRNaviViewController.m; sourceTree = "<group>"; };
+		F467D1401AFE4A87004393E0 /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		F467D1411AFE4A87004393E0 /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		F467D1421AFE4A87004393E0 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		F47D2E1B1AFEDB3B00A23F44 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		F47D2E1C1AFEDB3B00A23F44 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		F481B2371B001ED10011F738 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		F481B2381B001ED10011F738 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		F481B2391B001ED10011F738 /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		F4ECDEEB1AF7ABFB0093A812 /* JejuRiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JejuRiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4ECDEEF1AF7ABFB0093A812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4ECDEF01AF7ABFB0093A812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4ECDEF21AF7ABFB0093A812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4ECDEF31AF7ABFB0093A812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4ECDEFB1AF7ABFB0093A812 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4ECDEFE1AF7ABFB0093A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4ECDF041AF7ABFB0093A812 /* JejuRiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JejuRiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4ECDF091AF7ABFB0093A812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4ECDF0A1AF7ABFB0093A812 /* JejuRiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JejuRiverTests.m; sourceTree = "<group>"; };
+		F4ECFD021B08A20300118427 /* JRObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRObject.h; sourceTree = "<group>"; };
+		F4ECFD031B08A20300118427 /* JRObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRObject.m; sourceTree = "<group>"; };
+		F4ECFD051B08AE3800118427 /* BrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		F4ECFD061B08AE3800118427 /* BrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		F4ECFD071B08AE3800118427 /* BrowseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowseViewController.xib; sourceTree = "<group>"; };
+		F4F550871AF7B02E00AC67B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F4F550881AF7B2ED00AC67B8 /* JRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRController.h; sourceTree = "<group>"; };
+		F4F550891AF7B2ED00AC67B8 /* JRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4ECDEE81AF7ABFB0093A812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ECDF011AF7ABFB0093A812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4ECDEE21AF7ABFB0093A812 = {
+			isa = PBXGroup;
+			children = (
+				F4ECFD051B08AE3800118427 /* BrowseViewController.h */,
+				F4ECFD061B08AE3800118427 /* BrowseViewController.m */,
+				F4ECFD071B08AE3800118427 /* BrowseViewController.xib */,
+				F4ECFD021B08A20300118427 /* JRObject.h */,
+				F4ECFD031B08A20300118427 /* JRObject.m */,
+				F45E8DAA1B02EF2300B17EC1 /* JRNaviViewController.h */,
+				F45E8DAB1B02EF2300B17EC1 /* JRNaviViewController.m */,
+				F481B2371B001ED10011F738 /* SetupViewController.h */,
+				F481B2381B001ED10011F738 /* SetupViewController.m */,
+				F481B2391B001ED10011F738 /* SetupViewController.xib */,
+				F47D2E1B1AFEDB3B00A23F44 /* ImageDownloader.h */,
+				F47D2E1C1AFEDB3B00A23F44 /* ImageDownloader.m */,
+				F41C297C1AFE8CA30094DD09 /* PlayViewController.h */,
+				F41C297D1AFE8CA30094DD09 /* PlayViewController.m */,
+				F41C297E1AFE8CA30094DD09 /* PlayViewController.xib */,
+				F467D1401AFE4A87004393E0 /* AuthViewController.h */,
+				F467D1411AFE4A87004393E0 /* AuthViewController.m */,
+				F467D1421AFE4A87004393E0 /* AuthViewController.xib */,
+				F451F4881AF9035800DD263D /* JRServer.h */,
+				F451F4891AF9035800DD263D /* JRServer.m */,
+				F451F4851AF8F47000DD263D /* XMLReader.h */,
+				F451F4861AF8F47000DD263D /* XMLReader.m */,
+				F4ECDEED1AF7ABFB0093A812 /* JejuRiver */,
+				F4ECDF071AF7ABFB0093A812 /* JejuRiverTests */,
+				F4ECDEEC1AF7ABFB0093A812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4ECDEEC1AF7ABFB0093A812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECDEEB1AF7ABFB0093A812 /* JejuRiver.app */,
+				F4ECDF041AF7ABFB0093A812 /* JejuRiverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4ECDEED1AF7ABFB0093A812 /* JejuRiver */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECDEF21AF7ABFB0093A812 /* AppDelegate.h */,
+				F4ECDEF31AF7ABFB0093A812 /* AppDelegate.m */,
+				F4ECDEFB1AF7ABFB0093A812 /* Images.xcassets */,
+				F4ECDEFD1AF7ABFB0093A812 /* LaunchScreen.xib */,
+				F4ECDEEE1AF7ABFB0093A812 /* Supporting Files */,
+				F4F550871AF7B02E00AC67B8 /* PrefixHeader.pch */,
+				F4F550881AF7B2ED00AC67B8 /* JRController.h */,
+				F4F550891AF7B2ED00AC67B8 /* JRController.m */,
+				F451F47B1AF8D59B00DD263D /* RiverListViewController.h */,
+				F451F47C1AF8D59B00DD263D /* RiverListViewController.m */,
+				F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */,
+				F451F4801AF8D85800DD263D /* KeyAddViewController.h */,
+				F451F4811AF8D85800DD263D /* KeyAddViewController.m */,
+				F451F4821AF8D85800DD263D /* KeyAddViewController.xib */,
+			);
+			path = JejuRiver;
+			sourceTree = "<group>";
+		};
+		F4ECDEEE1AF7ABFB0093A812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECDEEF1AF7ABFB0093A812 /* Info.plist */,
+				F4ECDEF01AF7ABFB0093A812 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4ECDF071AF7ABFB0093A812 /* JejuRiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECDF0A1AF7ABFB0093A812 /* JejuRiverTests.m */,
+				F4ECDF081AF7ABFB0093A812 /* Supporting Files */,
+			);
+			path = JejuRiverTests;
+			sourceTree = "<group>";
+		};
+		F4ECDF081AF7ABFB0093A812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECDF091AF7ABFB0093A812 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4ECDEEA1AF7ABFB0093A812 /* JejuRiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4ECDF0E1AF7ABFB0093A812 /* Build configuration list for PBXNativeTarget "JejuRiver" */;
+			buildPhases = (
+				F4ECDEE71AF7ABFB0093A812 /* Sources */,
+				F4ECDEE81AF7ABFB0093A812 /* Frameworks */,
+				F4ECDEE91AF7ABFB0093A812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JejuRiver;
+			productName = JejuRiver;
+			productReference = F4ECDEEB1AF7ABFB0093A812 /* JejuRiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4ECDF031AF7ABFB0093A812 /* JejuRiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4ECDF111AF7ABFB0093A812 /* Build configuration list for PBXNativeTarget "JejuRiverTests" */;
+			buildPhases = (
+				F4ECDF001AF7ABFB0093A812 /* Sources */,
+				F4ECDF011AF7ABFB0093A812 /* Frameworks */,
+				F4ECDF021AF7ABFB0093A812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4ECDF061AF7ABFB0093A812 /* PBXTargetDependency */,
+			);
+			name = JejuRiverTests;
+			productName = JejuRiverTests;
+			productReference = F4ECDF041AF7ABFB0093A812 /* JejuRiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4ECDEE31AF7ABFB0093A812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jeongsoo;
+				TargetAttributes = {
+					F4ECDEEA1AF7ABFB0093A812 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 26U6Y89QJB;
+					};
+					F4ECDF031AF7ABFB0093A812 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F4ECDEEA1AF7ABFB0093A812;
+					};
+				};
+			};
+			buildConfigurationList = F4ECDEE61AF7ABFB0093A812 /* Build configuration list for PBXProject "JejuRiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4ECDEE21AF7ABFB0093A812;
+			productRefGroup = F4ECDEEC1AF7ABFB0093A812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4ECDEEA1AF7ABFB0093A812 /* JejuRiver */,
+				F4ECDF031AF7ABFB0093A812 /* JejuRiverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4ECDEE91AF7ABFB0093A812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F451F47F1AF8D59B00DD263D /* RiverListViewController.xib in Resources */,
+				F4ECDEFF1AF7ABFB0093A812 /* LaunchScreen.xib in Resources */,
+				F4ECFD091B08AE3800118427 /* BrowseViewController.xib in Resources */,
+				F41C29801AFE8CA30094DD09 /* PlayViewController.xib in Resources */,
+				F467D1441AFE4A87004393E0 /* AuthViewController.xib in Resources */,
+				F451F4841AF8D85800DD263D /* KeyAddViewController.xib in Resources */,
+				F481B23B1B001ED10011F738 /* SetupViewController.xib in Resources */,
+				F4ECDEFC1AF7ABFB0093A812 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ECDF021AF7ABFB0093A812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4ECDEE71AF7ABFB0093A812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F481B23A1B001ED10011F738 /* SetupViewController.m in Sources */,
+				F467D1431AFE4A87004393E0 /* AuthViewController.m in Sources */,
+				F451F4831AF8D85800DD263D /* KeyAddViewController.m in Sources */,
+				F47D2E1D1AFEDB3B00A23F44 /* ImageDownloader.m in Sources */,
+				F451F48A1AF9035800DD263D /* JRServer.m in Sources */,
+				F4F5508A1AF7B2ED00AC67B8 /* JRController.m in Sources */,
+				F45E8DAC1B02EF2300B17EC1 /* JRNaviViewController.m in Sources */,
+				F4ECDEF41AF7ABFB0093A812 /* AppDelegate.m in Sources */,
+				F4ECDEF11AF7ABFB0093A812 /* main.m in Sources */,
+				F451F4871AF8F47000DD263D /* XMLReader.m in Sources */,
+				F4ECFD081B08AE3800118427 /* BrowseViewController.m in Sources */,
+				F41C297F1AFE8CA30094DD09 /* PlayViewController.m in Sources */,
+				F4ECFD041B08A20300118427 /* JRObject.m in Sources */,
+				F451F47E1AF8D59B00DD263D /* RiverListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ECDF001AF7ABFB0093A812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ECDF0B1AF7ABFB0093A812 /* JejuRiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4ECDF061AF7ABFB0093A812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4ECDEEA1AF7ABFB0093A812 /* JejuRiver */;
+			targetProxy = F4ECDF051AF7ABFB0093A812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4ECDEFD1AF7ABFB0093A812 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4ECDEFE1AF7ABFB0093A812 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4ECDF0C1AF7ABFB0093A812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4ECDF0D1AF7ABFB0093A812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4ECDF0F1AF7ABFB0093A812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JejuRiver/PrefixHeader.pch;
+				INFOPLIST_FILE = JejuRiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4ECDF101AF7ABFB0093A812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JejuRiver/PrefixHeader.pch;
+				INFOPLIST_FILE = JejuRiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4ECDF121AF7ABFB0093A812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JejuRiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JejuRiver.app/JejuRiver";
+			};
+			name = Debug;
+		};
+		F4ECDF131AF7ABFB0093A812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JejuRiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JejuRiver.app/JejuRiver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4ECDEE61AF7ABFB0093A812 /* Build configuration list for PBXProject "JejuRiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ECDF0C1AF7ABFB0093A812 /* Debug */,
+				F4ECDF0D1AF7ABFB0093A812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4ECDF0E1AF7ABFB0093A812 /* Build configuration list for PBXNativeTarget "JejuRiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ECDF0F1AF7ABFB0093A812 /* Debug */,
+				F4ECDF101AF7ABFB0093A812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4ECDF111AF7ABFB0093A812 /* Build configuration list for PBXNativeTarget "JejuRiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ECDF121AF7ABFB0093A812 /* Debug */,
+				F4ECDF131AF7ABFB0093A812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4ECDEE31AF7ABFB0093A812 /* Project object */;
+}

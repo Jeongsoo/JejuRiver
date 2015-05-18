@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayViewController">
+            <connections>
+                <outlet property="browseButton" destination="jT0-aS-b54" id="xmY-Ev-UiH"/>
+                <outlet property="coverView" destination="cpr-hH-2QP" id="hEn-zd-taR"/>
+                <outlet property="listButton" destination="UJa-7G-FJo" id="GOm-tF-xSx"/>
+                <outlet property="nextButton" destination="a54-LN-Tr3" id="7jW-mO-xCn"/>
+                <outlet property="pauseToolbar" destination="T3R-w0-G1b" id="uEo-YM-TtY"/>
+                <outlet property="playButton" destination="PNq-In-Uaf" id="qpj-ma-cHd"/>
+                <outlet property="playToolbar" destination="03a-z8-AnA" id="aMn-b9-6RY"/>
+                <outlet property="pregressBar" destination="FPd-tt-Uza" id="Dua-cr-R86"/>
+                <outlet property="prevButton" destination="LzT-nf-oO2" id="0po-LY-ccq"/>
+                <outlet property="titleLabel" destination="nqP-2C-ALR" id="mDa-Wx-AsC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3R-w0-G1b" userLabel="Toolbar_pause">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <items>
+                        <barButtonItem systemItem="organize" id="HPk-gE-y65" userLabel="browse">
+                            <connections>
+                                <action selector="onLibraryButton:" destination="-1" id="kVj-Nf-iyn"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="60" style="plain" systemItem="flexibleSpace" id="vVa-H1-x1V"/>
+                        <barButtonItem systemItem="rewind" id="DIY-AH-T5I" userLabel="prev">
+                            <connections>
+                                <action selector="onPrevButton:" destination="-1" id="Ois-8s-CcN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="50" systemItem="fixedSpace" id="0yB-P6-WtK"/>
+                        <barButtonItem systemItem="pause" id="pwd-cX-FQA" userLabel="pause">
+                            <connections>
+                                <action selector="onPlayButton:" destination="-1" id="Mim-yN-zI3"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="50" style="plain" systemItem="fixedSpace" id="lBA-RS-zDB"/>
+                        <barButtonItem systemItem="fastForward" id="A0J-oy-0sI" userLabel="next">
+                            <connections>
+                                <action selector="onNextButton:" destination="-1" id="lbR-TJ-1yu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="fws-ie-FZd"/>
+                        <barButtonItem systemItem="compose" id="VeU-4W-twy" userLabel="list">
+                            <connections>
+                                <action selector="onPlayListButton:" destination="-1" id="3YT-MC-POy"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="barTintColor" red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                </toolbar>
+                <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03a-z8-AnA" userLabel="Toolbar_play">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <items>
+                        <barButtonItem systemItem="organize" id="jT0-aS-b54" userLabel="browse">
+                            <connections>
+                                <action selector="onLibraryButton:" destination="-1" id="Z4I-tT-uTI"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="60" style="plain" systemItem="flexibleSpace" id="RvS-vX-d1m"/>
+                        <barButtonItem systemItem="rewind" id="LzT-nf-oO2" userLabel="prev">
+                            <connections>
+                                <action selector="onPrevButton:" destination="-1" id="hct-U8-tgT"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="50" systemItem="fixedSpace" id="D8v-Mg-d1L"/>
+                        <barButtonItem systemItem="play" id="PNq-In-Uaf">
+                            <connections>
+                                <action selector="onPlayButton:" destination="-1" id="V0p-Tg-HUm"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="50" style="plain" systemItem="fixedSpace" id="auL-CS-AUa"/>
+                        <barButtonItem systemItem="fastForward" id="a54-LN-Tr3" userLabel="next">
+                            <connections>
+                                <action selector="onNextButton:" destination="-1" id="fVB-Qf-5HQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="cra-c0-oBz"/>
+                        <barButtonItem systemItem="compose" id="UJa-7G-FJo" userLabel="list">
+                            <connections>
+                                <action selector="onPlayListButton:" destination="-1" id="6gf-ab-zbs"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="barTintColor" red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                </toolbar>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FPd-tt-Uza">
+                    <rect key="frame" x="50" y="429" width="220" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Qj3-Tu-Ib6"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Qj3-Tu-Ib6"/>
+                        </mask>
+                    </variation>
+                </progressView>
+                <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cpr-hH-2QP">
+                    <rect key="frame" x="10" y="90" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="AFY-wm-AKb"/>
+                        <constraint firstAttribute="height" constant="300" id="T0M-Tk-RHL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nqP-2C-ALR" userLabel="title">
+                    <rect key="frame" x="0.0" y="468" width="320" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="T3R-w0-G1b" secondAttribute="bottom" id="6Yf-ct-Taj"/>
+                <constraint firstAttribute="trailing" secondItem="T3R-w0-G1b" secondAttribute="trailing" id="7ck-mg-cxH"/>
+                <constraint firstItem="T3R-w0-G1b" firstAttribute="top" secondItem="nqP-2C-ALR" secondAttribute="top" constant="556" id="84t-Gb-mA3"/>
+                <constraint firstAttribute="centerX" secondItem="cpr-hH-2QP" secondAttribute="centerX" id="AoV-cy-BZP"/>
+                <constraint firstItem="nqP-2C-ALR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DJA-EH-HsK"/>
+                <constraint firstItem="03a-z8-AnA" firstAttribute="top" secondItem="FPd-tt-Uza" secondAttribute="bottom" constant="93" id="DdA-3m-4Gq"/>
+                <constraint firstAttribute="trailing" secondItem="03a-z8-AnA" secondAttribute="trailing" id="LvO-Q5-9Ia"/>
+                <constraint firstItem="03a-z8-AnA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Oh4-vz-nSM"/>
+                <constraint firstAttribute="trailing" secondItem="FPd-tt-Uza" secondAttribute="trailing" constant="50" id="VSf-P6-Eoj"/>
+                <constraint firstAttribute="bottom" secondItem="03a-z8-AnA" secondAttribute="bottom" id="Xwg-FR-Wpy"/>
+                <constraint firstItem="cpr-hH-2QP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="bpz-4x-mHt"/>
+                <constraint firstItem="03a-z8-AnA" firstAttribute="top" secondItem="nqP-2C-ALR" secondAttribute="bottom" constant="35" id="dWo-lS-mrO"/>
+                <constraint firstItem="FPd-tt-Uza" firstAttribute="centerX" secondItem="03a-z8-AnA" secondAttribute="centerX" id="dfc-NA-tNc"/>
+                <constraint firstAttribute="trailing" secondItem="nqP-2C-ALR" secondAttribute="trailing" id="gyM-wz-46h"/>
+                <constraint firstItem="T3R-w0-G1b" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qEj-hb-Xd7"/>
+                <constraint firstAttribute="centerX" secondItem="cpr-hH-2QP" secondAttribute="centerX" id="vME-H9-b3S"/>
+                <constraint firstItem="FPd-tt-Uza" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="y7S-96-Afr"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="AoV-cy-BZP"/>
+                    <exclude reference="84t-Gb-mA3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="321" y="152"/>
+        </view>
+    </objects>
+</document>

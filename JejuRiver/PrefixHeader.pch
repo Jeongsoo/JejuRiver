@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  JejuRiver
+//
+//  Created by Jeongsoo on 2015. 5. 4..
+//  Copyright (c) 2015년 Jeongsoo. All rights reserved.
+//
+
+#ifndef JejuRiver_PrefixHeader_pch
+#define JejuRiver_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "JRController.h"
+#import "JRObject.h"
+#import "JRNaviViewController.h"
+
+#define MAIN_BG 0x1F2030
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
