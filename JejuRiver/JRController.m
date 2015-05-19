@@ -110,7 +110,7 @@ static JRController *controller = nil;
 
 -(void)playByKey:(NSString*)fileKey Add:(BOOL)isAdd
 {
-    NSString *url = [NSString stringWithFormat:@"%@Playback/PlayByKey?Key=%@&%@Zone=%d%@",[self baseURL],fileKey,(isAdd?@"&Location=End":@""),zone,tokenEnd];
+    NSString *url = [NSString stringWithFormat:@"%@Playback/PlayByKey?Key=%@&%@Zone=%d%@",[self baseURL],fileKey,(isAdd?@"Location=End&":@""),zone,tokenEnd];
     [self sendURL:url Func:JRWebFuncPlayByKey];
 }
 

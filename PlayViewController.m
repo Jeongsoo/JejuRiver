@@ -53,6 +53,8 @@
 
 -(void)info:(NSDictionary *)dic
 {
+    if( [dic objectForKey:@"FileKey"] == nil )
+        return;
     
     imageDownloader = [[ImageDownloader alloc] init];
     [imageDownloader setDelegate:self];
