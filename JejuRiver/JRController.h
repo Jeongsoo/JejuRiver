@@ -83,7 +83,7 @@ typedef enum
 -(void)selectServer:(NSInteger)serverIndex;
 -(void)authServerIndex:(NSInteger)serverIndex;
 -(void)requestInfo;
--(NSString*)imageURL:(NSString*)fileID;
+-(NSString*)imageURL:(NSString*)fileID Browse:(BOOL)isBrowse;
 -(void)setupServerAccessKey:(NSString*)keyStr ID:(NSString*)idStr Password:(NSString*)pwStr;
 -(void)playToggle;
 -(void)browse:(NSString*)browseID;

@@ -12,10 +12,10 @@
 
 @synthesize delegate = _delegate;
 
--(void)beginDownloadFileID:(NSString*)strID
+-(void)beginDownloadFileID:(NSString*)strID Browse:(BOOL)isBrowse
 {
     fileID = [NSString stringWithString:strID];
-    NSString *urlString = [[JRController controller] imageURL:fileID];
+    NSString *urlString = [[JRController controller] imageURL:fileID Browse:isBrowse];
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [[[NSURLConnection alloc] initWithRequest:request delegate:self] start];

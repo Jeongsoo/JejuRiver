@@ -7,6 +7,7 @@
 //
 
 #import "BrowseViewController.h"
+#import "BrowseCell.h"
 
 
 @implementation BrowseViewController
@@ -65,10 +66,12 @@
     NSMutableArray *tempArray = [[NSMutableArray alloc] init];
     for (NSDictionary *dic in array)
     {
-        JRObject *obj = [[JRObject alloc] init];
+        JRObject *obj = [[JRObject alloc] initWithIsBrowse:(_browseMode==kBrowseNormal)];
         [obj setID:[dic objectForKey:@"Key"]];
         [obj setTitle:[dic objectForKey:@"Name"]];
+        [obj startImageDownload];
         [tempArray addObject:obj];
+        
     }
     
     jrArray = [[NSArray alloc] initWithArray:tempArray];
@@ -106,17 +109,17 @@
 {
     
     NSString    *cellID = @"JRCell";
-    UITableViewCell  *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    BrowseCell  *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if( cell == nil)
     {
-        cell  = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell  = [[BrowseCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
+
     
     JRObject *obj = [jrArray objectAtIndex:indexPath.row];
     
     [cell setBackgroundColor:[UIColor blackColor]];
-    [[cell textLabel] setTextColor:[UIColor whiteColor]];
-    [[cell textLabel] setText:obj.title];
+    [cell setJRObject:obj];
     
     return cell;
 }
@@ -151,7 +154,7 @@
 {
     if( buttonIndex == 0 )  // play
     {
-        [listTable setUserInteractionEnabled:NO];
+//        [listTable setUserInteractionEnabled:NO];
         [[JRController controller] playByKey:_selectedID Add:NO];
     }
     else if (buttonIndex == 1) // add

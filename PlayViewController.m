@@ -58,7 +58,7 @@
     
     imageDownloader = [[ImageDownloader alloc] init];
     [imageDownloader setDelegate:self];
-    [imageDownloader beginDownloadFileID:[dic objectForKey:@"FileKey"]];
+    [imageDownloader beginDownloadFileID:[dic objectForKey:@"FileKey"] Browse:NO];
     
     [titleLabel setText:[dic objectForKey:@"Name"]];
     

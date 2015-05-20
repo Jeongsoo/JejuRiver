@@ -24,7 +24,7 @@
 
 @property   (nonatomic,weak)    id<ImageDownloaderDelegate> delegate;
 
--(void)beginDownloadFileID:(NSString*)strID;
+-(void)beginDownloadFileID:(NSString*)strID Browse:(BOOL)isBrowse;
 
 
 @end

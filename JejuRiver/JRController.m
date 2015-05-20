@@ -229,6 +229,16 @@ static JRController *controller = nil;
     
     JRWebFunc func = [[[cue objectAtIndex:0] objectForKey:KEY_FUNC] intValue];
     
+    for (int i = 0; i < cue.count; i++)
+    {
+        NSDictionary *dic = [cue objectAtIndex:i];
+        if( [dic objectForKey:KEY_CONNECTION] == connection)
+        {
+            func = [[dic objectForKey:KEY_FUNC] intValue];
+            i = (int)cue.count;
+        }
+    }
+    
     switch (func)
     {
         case JRWebFuncLookUp:
@@ -273,6 +283,16 @@ static JRController *controller = nil;
     
     
     JRWebFunc func = [[[cue objectAtIndex:0] objectForKey:KEY_FUNC] intValue];
+    
+    for (int i = 0; i < cue.count; i++)
+    {
+        NSDictionary *dic = [cue objectAtIndex:i];
+        if( [dic objectForKey:KEY_CONNECTION] == connection)
+        {
+            func = [[dic objectForKey:KEY_FUNC] intValue];
+            i = (int)cue.count;
+        }
+    }
     
     if( func == JRWebFuncFileList || func == JRWebFuncFileDetail)
     {
@@ -412,9 +432,10 @@ static JRController *controller = nil;
                     
                     for( NSDictionary *item in itemArray)
                     {
-                        JRObject *obj = [[JRObject alloc] init];
+                        JRObject *obj = [[JRObject alloc] initWithIsBrowse:YES];
                         [obj setTitle:[item objectForKey:@"Name"]];
                         [obj setID:[item objectForKey:KEY_TEXTVALUE]];
+                        [obj startImageDownload];
                         [tempArray addObject:obj];
                     }
                     
@@ -561,9 +582,12 @@ static JRController *controller = nil;
     
 }
 
--(NSString*)imageURL:(NSString*)fileID
+-(NSString*)imageURL:(NSString*)fileID Browse:(BOOL)isBrowse
 {
-    return [NSString stringWithFormat:@"%@File/GetImage?File=%@%@",[self baseURL],fileID,tokenEnd];
+    if( isBrowse )
+        return [NSString stringWithFormat:@"%@Browse/Image?ID=%@%@",[self baseURL],fileID,tokenEnd];
+    else
+        return [NSString stringWithFormat:@"%@File/GetImage?File=%@%@",[self baseURL],fileID,tokenEnd];        
 }
 
 -(NSString*)baseURL

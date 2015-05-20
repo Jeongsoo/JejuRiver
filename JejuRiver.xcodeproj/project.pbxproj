@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C783AB111B0C300F001F7DC0 /* BrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C783AB101B0C300F001F7DC0 /* BrowseCell.m */; };
 		F41C297F1AFE8CA30094DD09 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C297D1AFE8CA30094DD09 /* PlayViewController.m */; };
 		F41C29801AFE8CA30094DD09 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41C297E1AFE8CA30094DD09 /* PlayViewController.xib */; };
 		F451F47E1AF8D59B00DD263D /* RiverListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F451F47C1AF8D59B00DD263D /* RiverListViewController.m */; };
@@ -43,15 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C783AB0F1B0C300F001F7DC0 /* BrowseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseCell.h; sourceTree = "<group>"; };
+		C783AB101B0C300F001F7DC0 /* BrowseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseCell.m; sourceTree = "<group>"; };
 		F41C297C1AFE8CA30094DD09 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		F41C297D1AFE8CA30094DD09 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		F41C297E1AFE8CA30094DD09 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
-		F451F47B1AF8D59B00DD263D /* RiverListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiverListViewController.h; sourceTree = "<group>"; };
-		F451F47C1AF8D59B00DD263D /* RiverListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiverListViewController.m; sourceTree = "<group>"; };
-		F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RiverListViewController.xib; sourceTree = "<group>"; };
-		F451F4801AF8D85800DD263D /* KeyAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAddViewController.h; sourceTree = "<group>"; };
-		F451F4811AF8D85800DD263D /* KeyAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAddViewController.m; sourceTree = "<group>"; };
-		F451F4821AF8D85800DD263D /* KeyAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyAddViewController.xib; sourceTree = "<group>"; };
+		F451F47B1AF8D59B00DD263D /* RiverListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RiverListViewController.h; path = JejuRiver/RiverListViewController.h; sourceTree = "<group>"; };
+		F451F47C1AF8D59B00DD263D /* RiverListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RiverListViewController.m; path = JejuRiver/RiverListViewController.m; sourceTree = "<group>"; };
+		F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RiverListViewController.xib; path = JejuRiver/RiverListViewController.xib; sourceTree = "<group>"; };
+		F451F4801AF8D85800DD263D /* KeyAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyAddViewController.h; path = JejuRiver/KeyAddViewController.h; sourceTree = "<group>"; };
+		F451F4811AF8D85800DD263D /* KeyAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyAddViewController.m; path = JejuRiver/KeyAddViewController.m; sourceTree = "<group>"; };
+		F451F4821AF8D85800DD263D /* KeyAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeyAddViewController.xib; path = JejuRiver/KeyAddViewController.xib; sourceTree = "<group>"; };
 		F451F4851AF8F47000DD263D /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		F451F4861AF8F47000DD263D /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		F451F4881AF9035800DD263D /* JRServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRServer.h; sourceTree = "<group>"; };
@@ -82,8 +85,8 @@
 		F4ECFD061B08AE3800118427 /* BrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
 		F4ECFD071B08AE3800118427 /* BrowseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowseViewController.xib; sourceTree = "<group>"; };
 		F4F550871AF7B02E00AC67B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F4F550881AF7B2ED00AC67B8 /* JRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRController.h; sourceTree = "<group>"; };
-		F4F550891AF7B2ED00AC67B8 /* JRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRController.m; sourceTree = "<group>"; };
+		F4F550881AF7B2ED00AC67B8 /* JRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRController.h; path = JejuRiver/JRController.h; sourceTree = "<group>"; };
+		F4F550891AF7B2ED00AC67B8 /* JRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRController.m; path = JejuRiver/JRController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,31 +107,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4ECDEE21AF7ABFB0093A812 = {
+		C783AB121B0C5E1B001F7DC0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F451F47B1AF8D59B00DD263D /* RiverListViewController.h */,
+				F451F47C1AF8D59B00DD263D /* RiverListViewController.m */,
+				F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */,
+				F451F4801AF8D85800DD263D /* KeyAddViewController.h */,
+				F451F4811AF8D85800DD263D /* KeyAddViewController.m */,
+				F451F4821AF8D85800DD263D /* KeyAddViewController.xib */,
 				F4ECFD051B08AE3800118427 /* BrowseViewController.h */,
 				F4ECFD061B08AE3800118427 /* BrowseViewController.m */,
 				F4ECFD071B08AE3800118427 /* BrowseViewController.xib */,
-				F4ECFD021B08A20300118427 /* JRObject.h */,
-				F4ECFD031B08A20300118427 /* JRObject.m */,
 				F45E8DAA1B02EF2300B17EC1 /* JRNaviViewController.h */,
 				F45E8DAB1B02EF2300B17EC1 /* JRNaviViewController.m */,
 				F481B2371B001ED10011F738 /* SetupViewController.h */,
 				F481B2381B001ED10011F738 /* SetupViewController.m */,
 				F481B2391B001ED10011F738 /* SetupViewController.xib */,
-				F47D2E1B1AFEDB3B00A23F44 /* ImageDownloader.h */,
-				F47D2E1C1AFEDB3B00A23F44 /* ImageDownloader.m */,
 				F41C297C1AFE8CA30094DD09 /* PlayViewController.h */,
 				F41C297D1AFE8CA30094DD09 /* PlayViewController.m */,
 				F41C297E1AFE8CA30094DD09 /* PlayViewController.xib */,
 				F467D1401AFE4A87004393E0 /* AuthViewController.h */,
 				F467D1411AFE4A87004393E0 /* AuthViewController.m */,
 				F467D1421AFE4A87004393E0 /* AuthViewController.xib */,
-				F451F4881AF9035800DD263D /* JRServer.h */,
-				F451F4891AF9035800DD263D /* JRServer.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C783AB131B0C5E29001F7DC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C783AB0F1B0C300F001F7DC0 /* BrowseCell.h */,
+				C783AB101B0C300F001F7DC0 /* BrowseCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C783AB141B0C5E2F001F7DC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F47D2E1B1AFEDB3B00A23F44 /* ImageDownloader.h */,
+				F47D2E1C1AFEDB3B00A23F44 /* ImageDownloader.m */,
 				F451F4851AF8F47000DD263D /* XMLReader.h */,
 				F451F4861AF8F47000DD263D /* XMLReader.m */,
+				F4F550881AF7B2ED00AC67B8 /* JRController.h */,
+				F4F550891AF7B2ED00AC67B8 /* JRController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C783AB151B0C5E36001F7DC0 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECFD021B08A20300118427 /* JRObject.h */,
+				F4ECFD031B08A20300118427 /* JRObject.m */,
+				F451F4881AF9035800DD263D /* JRServer.h */,
+				F451F4891AF9035800DD263D /* JRServer.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		F4ECDEE21AF7ABFB0093A812 = {
+			isa = PBXGroup;
+			children = (
+				C783AB121B0C5E1B001F7DC0 /* ViewController */,
+				C783AB131B0C5E29001F7DC0 /* View */,
+				C783AB141B0C5E2F001F7DC0 /* Controller */,
+				C783AB151B0C5E36001F7DC0 /* Data Model */,
 				F4ECDEED1AF7ABFB0093A812 /* JejuRiver */,
 				F4ECDF071AF7ABFB0093A812 /* JejuRiverTests */,
 				F4ECDEEC1AF7ABFB0093A812 /* Products */,
@@ -153,14 +198,6 @@
 				F4ECDEFD1AF7ABFB0093A812 /* LaunchScreen.xib */,
 				F4ECDEEE1AF7ABFB0093A812 /* Supporting Files */,
 				F4F550871AF7B02E00AC67B8 /* PrefixHeader.pch */,
-				F4F550881AF7B2ED00AC67B8 /* JRController.h */,
-				F4F550891AF7B2ED00AC67B8 /* JRController.m */,
-				F451F47B1AF8D59B00DD263D /* RiverListViewController.h */,
-				F451F47C1AF8D59B00DD263D /* RiverListViewController.m */,
-				F451F47D1AF8D59B00DD263D /* RiverListViewController.xib */,
-				F451F4801AF8D85800DD263D /* KeyAddViewController.h */,
-				F451F4811AF8D85800DD263D /* KeyAddViewController.m */,
-				F451F4821AF8D85800DD263D /* KeyAddViewController.xib */,
 			);
 			path = JejuRiver;
 			sourceTree = "<group>";
@@ -240,10 +277,11 @@
 				TargetAttributes = {
 					F4ECDEEA1AF7ABFB0093A812 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 26U6Y89QJB;
+						DevelopmentTeam = 7A248HVL5A;
 					};
 					F4ECDF031AF7ABFB0093A812 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7A248HVL5A;
 						TestTargetID = F4ECDEEA1AF7ABFB0093A812;
 					};
 				};
@@ -310,6 +348,7 @@
 				F4ECFD081B08AE3800118427 /* BrowseViewController.m in Sources */,
 				F41C297F1AFE8CA30094DD09 /* PlayViewController.m in Sources */,
 				F4ECFD041B08A20300118427 /* JRObject.m in Sources */,
+				C783AB111B0C300F001F7DC0 /* BrowseCell.m in Sources */,
 				F451F47E1AF8D59B00DD263D /* RiverListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,12 +464,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = JejuRiver/PrefixHeader.pch;
 				INFOPLIST_FILE = JejuRiver/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -439,12 +480,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = JejuRiver/PrefixHeader.pch;
 				INFOPLIST_FILE = JejuRiver/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
